@@ -1,8 +1,15 @@
-# Simle UI for testing Data Integration Project
+####  Simple UI for testing [Data Integration Project](https://gitlab.com/theodor_g/data_integ_api)
 
-> A Vue.js project
+This is a simple single page application to test the [Data Integration Project](https://gitlab.com/theodor_g/data_integ_api) .
 
-## Build Setup
+For making this app working, it is required to change to servers address in the App.vue file at line 13.
+
+
+Technologies used in this project:
+- Vue2
+
+
+#### Build Setup
 
 ``` bash
 # install dependencies
@@ -16,3 +23,8 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+License
+----
+
+MIT
