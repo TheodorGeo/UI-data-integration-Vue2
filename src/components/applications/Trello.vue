@@ -53,7 +53,7 @@
         </div>
           <app-errors @deleteErrors="errors = $event" :errorText="errorText" v-if="errors"></app-errors>
       </form>
-      <app-modal :show="show" @closeModal="show = false"></app-modal>
+      <app-modal :show="show" @closeModal="show = false" v-if="show"></app-modal>
       <app-result v-if="result" :results="results" @hide="result = $event"></app-result>
     </div>
   </div>
@@ -123,12 +123,5 @@
 </script>
 
 <style scoped>
-  #checkboxes{
-    padding: 6px;
-  }
 
-  .error{
-    border: 1px tomato solid;
-    border-radius: 5px;
-  }
 </style>

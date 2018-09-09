@@ -37,4 +37,13 @@
   .is-grouped{
   margin-top: 16px;
   }
+
+  #checkboxes{
+    padding: 6px;
+  }
+
+  .error{
+    border: 1px tomato solid;
+    border-radius: 5px;
+  }
 </style>
